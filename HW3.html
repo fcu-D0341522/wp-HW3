@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+			<title>A First Program in JavaScript</title>
+			<script type = "text/javascript">
+				var c_degree;
+				//var f_degree;
+				c_degree = window.prompt("please enter the degree in Celsius");
+				f_degree = (c_degree)*1.8+32;
+				document.writeln("<h1>The degree of Celsius is "+c_degree+"</h1>");
+				document.writeln("<h1>The degree of Fahrenheit is "+trans(c_degree)+"</h1>");
+				function trans(c)
+				{
+					return c*1.8 + 32;
+				}
+				
+			</script>
+	</head>
+	<body>
+	</body>
+</html>
